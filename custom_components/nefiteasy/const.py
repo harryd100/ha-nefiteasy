@@ -113,5 +113,10 @@ SWITCH_TYPES = {
         name: "Weather dependent",
         url: '/heatingCircuits/hc1/control',
         icon: 'mdi:weather-partly-snowy-rainy'
-    }
+    },
+    'lock_user_interface': {
+        name: "Lock user interface",
+        url: '/ecus/rrc/lockuserinterface',
+        icon: 'mdi:account'
+    },
 }
